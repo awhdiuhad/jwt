@@ -1,0 +1,31 @@
+{
+    "name": "hush/jwt",
+    "description": "jwt thinkphp8",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hush",
+            "email": "1193038523@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "topthink/framework": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hush\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "extra": {
+        "think": {
+            "config": {
+                "jwt": "src/config/config.php"
+            }
+        }
+    }
+}
